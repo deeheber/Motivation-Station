@@ -1,3 +1,54 @@
+/*Base*/
 body {
-  background-color: #333;
+  color: #333;
+  font-family: sans-serif;
+  padding: 1%;
+  margin: 2%;
 }
+
+section {
+  width: 70%;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+/*Layout*/
+#main-app {
+  overflow: hidden;
+}
+
+#right-column {
+  float: right;
+  width: 60%;
+  margin-top: 4%;
+  border: 1px solid black;
+}
+
+#left-column {
+  float: left;
+  width: 30%;
+  margin-top: 4%;
+}
+
+#more {
+  clear: both;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+#robotPic {
+  width: 100%;
+}
+
+/*Module*/
+#right-column p {
+  text-align: center;
+}
+
+/*State*/
+
+/*Theme*/
