@@ -16,6 +16,10 @@ h1 {
 }
 
 /*Layout*/
+#buttonDiv {
+  width: 10%;
+  margin: auto;
+}
 #main-app {
   overflow: hidden;
 }
@@ -50,5 +54,8 @@ h1 {
 }
 
 /*State*/
+#main-app {
+  display: none;
+}
 
 /*Theme*/
