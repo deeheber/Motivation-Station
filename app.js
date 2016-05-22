@@ -1,17 +1,18 @@
 var quoteContainer = document.getElementById('quoteContainer');
 var moreLink = document.getElementById('more');
-var priorQuote = -1; //store the last array index
+var priorQuote = -1; //initalize prior quote value
 
 var generateQuote = function(event){
+  //for the moreLink
   event.preventDefault();
+
   //generate random number between 0 and quote.length
   var newQuote = Math.floor(Math.random() * quote.length);
 
-  //TODO: refactor to prevent infinite loops
-  //check to make sure the random number isn't the same as the prior random number
-  // while(newQuote === priorQuote){
-  //   randNum = Math.floor(Math.random() * quote.length);
-  // }
+  //prevents the same quote from coming in twice in a row
+  while(newQuote === priorQuote){
+    newQuote = Math.floor(Math.random() * quote.length);
+  }
 
   //write quote to the DOM
   quoteContainer.innerHTML = quote[newQuote];
