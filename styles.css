@@ -37,6 +37,10 @@ h1 {
   margin-top: 4%;
 }
 
+#quoteContainer {
+  padding: 2%;
+}
+
 #more {
   clear: both;
   text-align: center;
