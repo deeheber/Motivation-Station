@@ -1,6 +1,8 @@
 # Motivation-Station --- in progress
-Having a bad day? This will cheer you up (hopefully).
+Feeling unmotivated?
 
-Betty bot will share compliments to help you feel better.
+Betty bot will share motivational quotes to inspire you.
 
 Working prototype [here](http://deeheber.github.io/Motivation-Station/)
+
+Pull Requests for inspirational quotes are more than welcome!
